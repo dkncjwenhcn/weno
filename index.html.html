@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Personal</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    header {
+      background-color: #111;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 10px 0;
+    }
+
+   
+    nav {
+      background-color: #222;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: purple;
+    }
+
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 1.3em;
+      margin-top: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    img {
+      display: block;
+      margin: 15px auto;
+      max-width: 90%;
+      height: auto;
+    }
+
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 80%;
+      max-width: 500px;
+    }
+
+    th, td {
+      border: 1px solid white;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #222;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: gray;
+      text-align: center;
+      padding: 15px 0;
+      border-top: 1px solid #444;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi persona</h1>
+  </header>
+
+  <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#gustos">Gustos</a>
+    <a href="#imagenes">Imágenes</a>
+    <a href="#materias">Materias</a>
+  </nav>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Mi nombre es <strong>Martinez Torres Diego "CUYORITO"</strong>, tengo 20 años, mido 1.80, mi peso lo desconozco y ¡arriba las goticas!</p>
+    </section>
+
+    <section id="gustos">
+      <h2>5 cosas que me gustan</h2>
+      <ul>
+        <li>La programación</li>
+        <li>Lo competitivo</li>
+        <li>Las flores</li>
+        <li>Brawlhalla</li>
+        <li>XOXOX</li>
+      </ul>
+    </section>
+
+    <section id="imagenes">
+      <h2>Imágenes de lo que me gusta</h2>
+      <figure>
+        <img src="Mel.jpeg" alt="Imagen representando algo que me gusta" width="300" height="200">
+        <figcaption>Imagen 1</figcaption>
+      </figure>
+      <figure>
+        <img src="onepice.jpg" alt="Imagen de One Piece" width="300" height="200">
+        <figcaption>Imagen 2</figcaption>
+      </figure>
+    </section>
+
+    <section id="materias">
+      <h2>Materias cursadas</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Materia</th>
+            <th>Semestre</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Principios de programacion</td><td>1</td></tr>
+          <tr><td>2</td><td>PO</td><td>2</td></tr>
+          <tr><td>3</td><td>Estructura de datos</td><td>3</td></tr>
+          <tr><td>4</td><td>Ecuaciones diferenciales</td><td>4</td></tr>
+          <tr><td>5</td><td>Desarrollo web</td><td>5</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - pagina personal de Cuyorit0</p>
+  </footer>
+</body>
+</html>
+
+
